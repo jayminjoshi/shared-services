@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "shared-services"
+version = "0.1.0"
+description = "A simple private package using pyproject.toml"
+authors = [{ name = "JJ", email = "you@example.com" }]
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["."]
